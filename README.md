@@ -10,13 +10,13 @@ NOTE: This is basically a scrape of your own site, so keep in mind that anything
 ## What you need
 - Javascript knowledege
 - Your website.
-- node.js (install HERE)
+- [NodeJS](https://nodejs.org)
 
 # Installation
 Download, copy, or integrate these files to your website:
 
-1. terminal.html
-2. term_styles.css
+1. term.html
+2. term_style.css
 3. term.js
 The terminal will work, but the LS command won't return anything, this is because we haven't generated the filesystem object yet.
 
