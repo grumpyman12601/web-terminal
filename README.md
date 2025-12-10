@@ -2,7 +2,7 @@
 
 [![Github All Releases](https://img.shields.io/github/downloads/grumpyman12601/web-terminal/total.svg)]()
 
-A terminal to navigate your website's file structure. Created for Fundamentals of Web Programming @ Kirkwood in 2025. To see it in use go [HERE](grumpyman12601.github.io/html_css_5/index.html)
+A terminal to navigate your website's file structure. Created for Fundamentals of Web Programming @ Kirkwood in 2025. To see it in use go [HERE](https://grumpyman12601.github.io/html_css_5/index.html)
 
 NOTE: This is basically a scrape of your own site, so keep in mind that anything and everything you host on your website will be easily available to anyone.
 
@@ -10,7 +10,7 @@ NOTE: This is basically a scrape of your own site, so keep in mind that anything
 ## What you need
 - Javascript knowledege
 - Your entire website. in a folder. Directories should match up perfectly with the way the website is on web.
-- Java
+- Remove any personal/private info from your website.
 
 # Installation
 1. Download generateFS.js
