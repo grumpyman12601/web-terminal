@@ -1,0 +1,130 @@
+
+:root {
+    --terminal-bg: rgba(26, 26, 26, 0.9);
+    --terminal-header-bg: #333;
+    --terminal-border: #444;
+    --text-primary: #00ff41;
+    --text-secondary: #ccc;
+    --prompt-color: #00ff41;
+    --caret-color: #00ff41;
+}
+
+body {
+    background-color: #000;
+    background-image: linear-gradient(to bottom, #1a1a1a, #000);
+    font-family: 'Source Code Pro', monospace;
+    color: var(--text-secondary);
+    margin: 0;
+    padding: 20px;
+    min-height: 100vh;
+    box-sizing: border-box;
+}
+
+.terminal-box {
+    background-color: var(--terminal-bg);
+    border-radius: 8px;
+    overflow: hidden;
+    border: 1px solid var(--terminal-border);
+    max-width: 800px;
+    margin: 20px auto;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.7);
+}
+
+.terminal-header {
+    background-color: var(--terminal-header-bg);
+    padding: 8px 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid var(--terminal-border);
+}
+
+.title {
+    color: var(--text-secondary);
+    font-size: 0.9em;
+}
+
+.terminal-header-icons {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.github-image {
+    width: 20px;
+    height: 20px;
+    filter: invert(75%);
+    transition: filter 0.3s ease;
+}
+
+.github-image:hover {
+    filter: invert(100%);
+}
+
+.info-button {
+    color: var(--text-secondary);
+    font-size: 20px;
+    cursor: pointer;
+    transition: color 0.3s ease;
+}
+
+.info-button:hover {
+    color: white;
+}
+
+.terminal-body {
+    padding: 15px;
+    height: 400px;
+    overflow-y: auto;
+}
+
+/* Custom scrollbar for terminal body */
+.terminal-body::-webkit-scrollbar {
+  width: 8px;
+}
+
+.terminal-body::-webkit-scrollbar-track {
+  background: #222;
+}
+
+.terminal-body::-webkit-scrollbar-thumb {
+  background-color: #555;
+  border-radius: 4px;
+  border: 2px solid #222;
+}
+
+.terminal-line {
+    display: flex;
+    line-height: 1.5;
+}
+
+.prompt {
+    color: var(--prompt-color);
+    margin-right: 8px;
+    white-space: nowrap;
+}
+
+.terminal-input {
+    background: none;
+    border: none;
+    outline: none;
+    color: var(--text-primary);
+    caret-color: var(--caret-color);
+    flex-grow: 1;
+    font-family: inherit;
+    font-size: 1em;
+}
+
+/* Tooltip styles */
+.wa-tooltip-popup {
+    position: absolute;
+    background-color: #222;
+    color: #eee;
+    border: 1px solid #555;
+    padding: 8px 12px;
+    border-radius: 5px;
+    z-index: 10001;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.5);
+    font-size: 0.85em;
+    display: none; /* Initially hidden */
+}
