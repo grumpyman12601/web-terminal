@@ -13,21 +13,20 @@ NOTE: This is basically a scrape of your own site, so keep in mind that anything
 - Remove any personal/private info from your website.
 
 # Installation
-1. Download generateFS.js
-2. Run generateFS.js on the root directory of your website.
-3. Copy the contents of the json file it generates.
-4. Paste these contents into the ```const filesystem = {} ```in term.js
-NOTE: If you have a big website, the structure will be very large.
-
-Terminal v3 will add a json file to reference in the javascript file instead of storing the it locally.
-
-# Pre-made terminal
 Download, copy, or integrate these files to your website:
 
 1. terminal.html
 2. term_styles.css
 3. term.js
+The terminal will work, but the LS command won't return anything, this is because we haven't generated the filesystem object yet.
 
+# To generate your website's file structure:
+1. Download generateFS.js
+2. Run generateFS.js on the root directory of your website.
+3. Copy the contents of the json file it generates.
+4. Paste these contents into the ```const filesystem = {} ```in term.js.
+
+NOTE: If you have a big website, the structure will be very large. Terminal v3 will fix this by using a json file instead of a constant.
 
 ## Issues
 Security
