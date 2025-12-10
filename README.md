@@ -1,6 +1,7 @@
 # Web Terminal
 
-[![Github All Releases](https://img.shields.io/github/downloads/grumpyman12601/web-terminal/total.svg)]()
+[![Github All Releases](https://img.shields.io/github/downloads/grumpyman12601/web-terminal/total
+)]()
 
 A terminal to navigate your website's file structure. Created for Fundamentals of Web Programming @ Kirkwood in 2025. To see it in use go [HERE](https://grumpyman12601.github.io/html_css_5/index.html)
 
