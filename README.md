@@ -28,6 +28,9 @@ The terminal should work, but the LS command won't return anything, this is beca
        ├── generateFS.js
 
        └── 📁 public
+   
+              └── index.html
+              └── styles.css
     
 6. Run generateFS.js using the command:
 
