@@ -11,7 +11,7 @@ NOTE: This is basically a scrape of your own site, so keep in mind that anything
 ## What you need
 - Javascript knowledege
 - Your website.
-- [NodeJS](https://nodejs.org))
+- [NodeJS](https://nodejs.org)
 
 # Installation
 Download, copy, or integrate [term.html](term.html), [term_style.css](term_style.css), and [term.js](term.js) into your website.
